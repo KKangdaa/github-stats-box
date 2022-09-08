@@ -15,7 +15,7 @@ jobs:
             - run: npx github-stats-box
               env:
                   GH_TOKEN: ${{ secrets.GH_TOKEN }} # Do not edit, defined in secrets
-
+                  
                   # Edit the following environment variables
                   GIST_ID: 97325ac12fcaf556734328a8de254e6a # The ID portion from your gist url
                   ALL_COMMITS: true # If `true` it will count all commits, if `false` it will count your last year commits
